@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 Starter Template with Tailwind CSS and TypeScript
 
-## Getting Started
+This is a starter template for creating projects with Next.js 13 using Tailwind CSS and TypeScript. It also includes a preconfigured setup of ESLint and Prettier that you can use in your projects.
 
-First, run the development server:
+## Features
+
+- Next.js 13: The React framework for modern web applications.
+- Tailwind CSS: A utility-first CSS framework with low specificity.
+- TypeScript: A typed superset of JavaScript.
+- ESLint: A linter that helps you maintain clean and consistent code.
+- Prettier: A code formatter for maintaining a consistent code style.
+
+## Prerequisites
+
+Before getting started, make sure you have the following installed in your development environment:
+
+- Node.js (version 14 or higher)
+- npm (Node Package Manager) or yarn
+
+## Installation
+
+Follow these steps to use this starter template:
+
+1. Clone this repository to your local machine:
+
+```
+git clone https://github.com/mariandotg/nextjs-tailwind-starter
+```
+
+2. Navigate to the project folder:
+
+```
+cd nombre-del-proyecto
+```
+
+3. Install the project dependencies:
+
+```bash
+npm install
+# or
+yarn
+```
+
+## Usage
+
+Once you have installed all the dependencies, you can start the local development server using the following command:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ESLint and Prettier Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This template already includes a predefined configuration of ESLint and Prettier to help you maintain clean and consistent code.
 
-## Learn More
+You can find the ESLint configuration in the `.eslintrc` file. If you want to customize the ESLint rules, you can edit this file.
 
-To learn more about Next.js, take a look at the following resources:
+The Prettier configuration is located in the `.prettierrc` file. You can modify this file to adjust the formatting preferences according to your needs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you encounter any issues or have any suggestions for improvement, feel free to open an [issue](https://github.com/mariandotg/nextjs-tailwind-starter/issues) or submit a [pull request](https://github.com/mariandotg/nextjs-tailwind-starter/pulls). Your contributions are welcome!
